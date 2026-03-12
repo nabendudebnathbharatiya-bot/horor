@@ -1,0 +1,112 @@
+PlayerMode: auto
+LikeMessage: সাহস থাকলে আবার দেখুন!
+ShareText: এই ভৌতিক গল্পটি শেয়ার করে বন্ধুদের ভয় দেখান!
+ShareLink: https://yourdomain.com/horror-story
+HomeLink: /
+WhatsAppNumber: 91XXXXXXXXXX
+
+-- স্লাইড ১: ভূমিকা --
+[Slide]
+Duration: 6
+Audio: horor.mp3
+Layout: flex flex-col items-center justify-center bg-black
+Element: text
+Content: <h1 class="text-4xl md:text-6xl font-bold text-red-600 uppercase tracking-widest">নিশাচর</h1>
+Animation: anim-zoom
+Element: text
+Content: <p class="text-gray-400 mt-4 italic">একটি অভিশপ্ত ভিডিওর গল্প...</p>
+Animation: anim-slide-up
+
+-- স্লাইড ২: শুরু --
+[Slide]
+Duration: 8
+Layout: flex flex-col items-center justify-center p-6 bg-gray-950
+Element: text
+Content: <div class="text-xl md:text-3xl text-center leading-relaxed">রাত ৩টে ৭ মিনিট। হঠাৎ ফোনে একটা অদ্ভুত নোটিফিকেশন এল। কোনো নামহীন চ্যানেল থেকে একটি ভিডিও পাঠানো হয়েছে।</div>
+Animation: anim-slide-left
+
+-- স্লাইড ৩: প্রথম ভিডিও (ভৌতিক দৃশ্য ১) --
+[Slide]
+Duration: 20
+Layout: flex items-center justify-center w-full h-full
+Element: youtube
+Src: https: https://youtube.com/shorts/eUXl-ZbxTWI?si=_bk164k-ABiCLzor
+Start: 0
+Duration: 20
+Element: text
+Content: <div class="absolute top-5 left-5 bg-red-600 px-3 py-1 text-sm font-bold rounded">সতর্কতা: একা দেখবেন না</div>
+Animation: anim-fade
+
+-- স্লাইড ৪: মানসিক চাপ --
+[Slide]
+Duration: 7
+Layout: flex flex-col items-center justify-center bg-stone-900
+Element: text
+Content: <div class="text-2xl text-red-500 font-bold">ভিডিওটা দেখার পর মনে হলো...</div>
+Animation: anim-slide-down
+Element: text
+Content: <div class="text-4xl mt-4 animate-pulse">ঘরটা কেন যেন হঠাৎ ঠান্ডা হয়ে গেল!</div>
+Animation: anim-fade
+
+-- স্লাইড ৫: দ্বিতীয় ভিডিও (ভৌতিক দৃশ্য ২) --
+[Slide]
+Duration: 12
+Layout: flex items-center justify-center w-full h-full
+Element: youtube
+Src: https://youtube.com/shorts/R7cEIG_gqLU?si=uhQOitjyb6Y74iWX
+Start: 5
+Duration: 12
+
+-- স্লাইড ৬: ছায়া --
+[Slide]
+Duration: 8
+Layout: flex flex-col items-center justify-center bg-black
+Element: text
+Content: <div class="text-xl text-gray-300">আয়নার দিকে তাকালাম। আমার পিছনে কি কেউ দাঁড়িয়ে আছে?</div>
+Animation: anim-slide-left
+ExitTime: 4000
+ExitAnimation: anim-zoom-out
+Element: text
+Content: <div class="text-3xl text-white font-bold mt-4">কিন্তু ঘরে তো আমি ছাড়া আর কেউ নেই!</div>
+Animation: anim-fade
+Start: 4
+
+-- স্লাইড ৭: তৃতীয় ভিডিও (ক্লাইম্যাক্স) --
+[Slide]
+Duration: 20
+Layout: flex items-center justify-center w-full h-full
+Element: youtube
+Src: https://youtube.com/shorts/W_tAOWjH8L8?si=COkwoYptLyikqSz_
+Start: 0
+Duration: 20
+
+-- স্লাইড ৮: অভিশপ্ত বিজ্ঞাপন (AdSlide) --
+[AdSlide]
+Duration: 10
+SkipTime: 5
+Layout: flex flex-col items-center justify-center bg-red-900/20
+Element: text
+Content: <h2 class="text-3xl font-bold text-yellow-500">অভিশপ্ত পুতুলটি কি আপনার চাই?</h2>
+Animation: anim-zoom
+Element: text
+Content: <p class="text-white mt-4">অর্ডার করতে নিচের বাটনে ক্লিক করুন (যদি সাহস থাকে)</p>
+Animation: anim-slide-up
+
+-- স্লাইড ৯: চরম আতঙ্ক --
+[Slide]
+Duration: 6
+Layout: flex flex-col items-center justify-center bg-black
+Element: text
+Content: <div class="text-5xl font-black text-red-700 uppercase italic">পিছনে তাকাবেন না!</div>
+Animation: anim-zoom
+
+-- স্লাইড ১০: সমাপ্তি --
+[Slide]
+Duration: 10
+Layout: flex flex-col items-center justify-center bg-gray-900
+Element: text
+Content: <div class="text-3xl text-teal-400 font-bold mb-4">গল্পটি কাল্পনিক... নাকি বাস্তব?</div>
+Animation: anim-fade
+Element: text
+Content: <div class="text-gray-500">পরের পর্ব শীঘ্রই আসছে। লাইক দিয়ে পাশে থাকুন।</div>
+Animation: anim-slide-up
